@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:12VH;
+}
+
+.bordaplay {
+    display: flex;
+    width: 300px;
+    height:700px;
+  }
+
+.meiorosa{
+    background-color: #CD8677;
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    width:900px;
+    height:700px;
+}
+.meio{
+    display:flex;
+    flex-direction: column;
+   align-items: center;
+}
+.gatoinicio{
+    height: 150px;
+    width: 280px;
+}
+.logo{
+    width:500px;
+    height:250px;
+    margin: 10px 10px;
+}
+
+.image_btn {
+    display: block;
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: 20px;
+}
+.image_btn img{
+    display: block; 
+}
+
+.image_btn:hover{
+    transform: scale(1.5);
+}
+
+.bordaplay2{
+    display: flex;
+    width: 300px;
+    height:700px;
+}
+
+
+
+@media (max-width: 600px) {
+    body {
+      padding: 20px;
+    }
+  }
+
+/* css segunda pagina */
+
+#video{
+    width:900px;
+    height:700px;
+}
+
+#titulo{
+    font-size: 5vh;
+}
+
+#seta{
+    display:none;
+    width: 6vw;
+    height: 6vh;
+}
+
+#gatitos{
+    display: none;
+}
+
+#btn1{
+    display: none;
+}
+
+#btn2{
+    display: none;
+    margin-left: 1vw;
+}
+
+#btn3{
+    display: none;
+    margin-left: 1vw;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
